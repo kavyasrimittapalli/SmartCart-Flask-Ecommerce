@@ -1,0 +1,602 @@
+body {
+    background-color: #f4f6f9;
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-custom {
+    background-color: #1e3d59;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: #ffffff !important;
+}
+
+.page-content {
+    padding: 30px;
+}
+
+.admin-profile-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.profile-left {
+    text-align: center;
+    width: 30%;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1e3d59;
+}
+
+.no-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-info h5 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.profile-right {
+    width: 70%;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e3d59;
+    color: white;
+    margin-top: 40px;
+}
+
+.flash-message {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.flash-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.flash-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+.header {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Center Container */
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* Title */
+.login-container h1 {
+    margin-bottom: 30px;
+}
+
+/* Labels */
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #e9eef6;
+}
+
+/* Button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1f6feb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #155cc0;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+.header {
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Center Form */
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #e9eef6;
+    box-sizing: border-box;
+}
+
+/* Button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1f6feb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #155cc0;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f3b57;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Success message */
+.success-msg {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Error message */
+.error-msg {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Password eye container */
+.password-box {
+    position: relative;
+}
+
+.password-box input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #e9eef6;
+    box-sizing: border-box;
+}
+
+.password-box span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.danger {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* =========================
+   GLOBAL
+========================= */
+body {
+    margin: 0;
+    padding-top: 80px;   /* important for fixed navbar */
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar-custom {
+    background-color: #1f3b57;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffc107;
+}
+
+
+/* =========================
+   CARD BOX
+========================= */
+.card-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+.product-view-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+
+/* =========================
+   BUTTON STYLING
+========================= */
+.btn-secondary {
+    background-color: #1f3b57;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #162c40;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    background-color: #1f3b57;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 50px;
+}
+
+
+
+
+/* Make images uniform */
+table img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Reduce image column width */
+th:nth-child(2),
+td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+/* Center all table content nicely */
+table th,
+table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+/* Full page background */
+body {
+    background: url("../images/cart7.webp") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* ===============================
+   ADMIN TABLE RESPONSIVE
+================================ */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+th {
+    background: #1f2d3d;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Image */
+.product-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn-view {
+    background: #17a2b8;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-update {
+    background: #ffc107;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* ===============================
+   MOBILE VIEW (ADMIN)
+================================ */
+@media (max-width: 768px) {
+
+    table thead {
+        display: none;
+    }
+
+    table, tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        background: #f9f9f9;
+        padding: 12px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    td {
+        text-align: left;
+        padding: 8px 10px;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 4px;
+        color: #333;
+    }
+
+    .product-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-view,
+    .btn-update,
+    .btn-delete {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 6px;
+    }
+}
+
+
+
+
+
+
+/* ADMIN MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.admin-container{
+padding:10px;
+}
+
+.admin-table{
+overflow-x:auto;
+display:block;
+}
+
+.form-group{
+flex-direction:column;
+}
+
+.form-group input,
+.form-group select,
+.form-group button{
+width:100%;
+margin-bottom:8px;
+}
+
+}
+
+@media (max-width:480px){
+
+.admin-card{
+width:100%;
+}
+
+.admin-buttons button{
+width:100%;
+margin-top:5px;
+}
+
+}
+
